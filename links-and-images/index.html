@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+</head>
+<body>
+    <!-- rel prevents opened tab not to access the old tab -->
+    <p>Hello from Links and Images <a href="https://www.google.com" target="_self" rel="noopener noreferrer">go to google.com</a>.</p>
+    <!-- noopener: The noopener value of the rel attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk. -->
+    <!-- noreferrer: The noreferrer value of the rel attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of noopener, preventing the new page from accessing the original page. -->
+
+    <a href="./about.html" target="_self">Go to About Page</a>
+
+</body> 
+</html>
